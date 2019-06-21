@@ -1,0 +1,17 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "vant-weapp": "^0.5.14"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+/**index.wxss**/
+@import "../../app.wxss";
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.banner{
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+#login_input{
+  height: 200rpx;
+}
+#login-btn{
+  height: 100rpx;
+}
