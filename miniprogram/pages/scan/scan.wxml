@@ -1,2 +1,8 @@
 <!--pages/scan/scan.wxml-->
-<text>pages/scan/scan.wxml</text>
+    <view id="scan-btn">
+      <van-button  type="primary" size="large" bind:click="scanCode" >点我扫码</van-button>
+    </view>
+
+    <van-cell-group>
+  <van-cell title="二维码信息" value="{{result}}" />
+</van-cell-group>

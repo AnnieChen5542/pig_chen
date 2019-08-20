@@ -1,6 +1,8 @@
 // pages/scan/scan.js
 Page({
-
+  data: {
+    result: "",
+  },
   /**
    * 页面的初始数据
    */
@@ -12,11 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      wx.scanCode({
-        success: (res) => {
-          console.log(res)
-          }
-      })
+      
   },
 
   /**
@@ -66,5 +64,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  scanCode:function(){
+    wx.scanCode({
+      success: (res) => {
+        this.setData({
+          result : res.result
+        })
+      }
+    })
   }
 })

@@ -5,6 +5,12 @@
     "pages/manager/manager",
     "pages/scan/scan"
   ],
+  "usingComponents": {
+    "van-field": "vant-weapp/field",
+    "van-button": "vant-weapp/button",
+    "van-transition": "vant-weapp/transition",
+    "van-cell":"vant-weapp/cell"
+  },
   "permission": {
     "scope.userLocation": {
       "desc": "是否允许获取你的位置？"
@@ -42,4 +48,5 @@
     ]
   },
   "sitemapLocation": "sitemap.json"
+  
 }
