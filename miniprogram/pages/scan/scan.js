@@ -69,9 +69,12 @@ Page({
   scanCode:function(){
     wx.scanCode({
       success: (res) => {
+        var scanRes = res.result;
         this.setData({
-          result : res.result
+          result : scanRes
         })
+        var scanArr = scanRes.split("|||");
+        console.log(scanArr);
       }
     })
   }

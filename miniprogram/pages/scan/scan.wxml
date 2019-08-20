@@ -6,3 +6,6 @@
     <van-cell-group>
   <van-cell title="二维码信息" value="{{result}}" />
 </van-cell-group>
+<van-cell-group>
+  <van-cell title="品牌" value="{{result}}" />
+</van-cell-group>
